@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Busca de serviço">
+    <meta name="author" content="Equipe QuickWork">
+    <title>Registro</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/heroic-features.css" rel="stylesheet">
+</head>
+
+<body class="corpo">
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="index.html"><img src="_img/logo_Easy-Resize.com.jpg"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="register.html">Cadastre-se</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contactus.html">Fale Conosco</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="about.html">Quem Somos</a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<form class="form-register">
+    <div class="form-group">
+        <label for="exampleFormControlFile1">Carregar uma foto para o perfil</label>
+        <input type="file" class="form-control-file" id="exampleFormControlFile1">
+    </div>
+
+    <div class="row">
+        <div class="col">
+            <input type="text" class="form-control" placeholder="Nome">
+        </div>
+        <div class="col">
+            <input type="text" class="form-control" placeholder="Sobrenome">
+        </div>
+    </div>
+
+    <div class="form-group row">
+        <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+        <div class="col-sm-10">
+            <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="email@exemplo.com">
+        </div>
+    </div>
+    <div class="form-group row">
+        <label for="inputPassword" class="col-sm-2 col-form-label">Senha</label>
+        <div class="col-sm-10">
+            <input type="password" class="form-control" id="inputPassword" placeholder="Senha">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="inputAddress">Endereço</label>
+        <input type="text" class="form-control" id="inputAddress" placeholder="Rua dos Bobos, nº 0">
+    </div>
+    <div class="form-row">
+        <div class="col-7">
+            <input type="text" class="form-control" placeholder="Complemento">
+        </div>
+        <div class="col">
+            <input type="text" class="form-control" placeholder="Estado">
+        </div>
+    </div>
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label for="inputCity">Cidade</label>
+            <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="form-group col-md-4">
+            <label for="inputEstado">Estado</label>
+            <select id="inputEstado" class="form-control">
+                <option selected>Escolher...</option>
+                <option>Acre</option>
+                <option>Alagoas</option>
+                <option>Amapá</option>
+                <option>Amazonas</option>
+                <option>Bahia</option>
+                <option>Ceará</option>
+                <option>Espírito Santo</option>
+                <option>Goiás</option>
+                <option>Maranhão</option>
+                <option>Mato Grosso</option>
+                <option>Mato Grosso do Sul</option>
+                <option>Minas Gerais</option>
+                <option>Pará</option>
+                <option>Paraíba</option>
+                <option>Paraná</option>
+                <option>Pernambuco</option>
+                <option>Piauí</option>
+                <option>Rio de Janeiro</option>
+                <option>Rio Grande do Norte</option>
+                <option>Rio Grande do Sul</option>
+                <option>Rondônia</option>
+                <option>Roraima</option>
+                <option>Santa Catarina</option>
+                <option>São Paulo</option>
+                <option>Sergipe</option>
+                <option>Tocantins</option>
+                <option>Distrito Federal</option>
+            </select>
+        </div>
+        <div class="form-group col-md-2">
+            <label for="inputCEP">CEP</label>
+            <input type="text" class="form-control" id="inputCEP">
+        </div>
+    </div>
+
+    <div class="custom-control custom-checkbox mb-3">
+        <input type="checkbox" class="custom-control-input" id="customControlValidation1" required>
+        <label class="custom-control-label" for="customControlValidation1">Faxineira</label>
+        <div class="invalid-feedback">Exemplo de texto para feedback inválido</div>
+    </div>
+    <div class="custom-control custom-checkbox mb-3">
+        <input type="checkbox" class="custom-control-input" id="customControlValidation2" required>
+        <label class="custom-control-label" for="customControlValidation1">Carptintaria</label>
+        <div class="invalid-feedback">Exemplo de texto para feedback inválido</div>
+    </div>
+    <div class="custom-control custom-checkbox mb-3">
+        <input type="checkbox" class="custom-control-input" id="customControlValidation3" required>
+    <label class="custom-control-label" for="customControlValidation1">Pedreiro</label>
+    <div class="invalid-feedback">Exemplo de texto para feedback inválido</div>
+    </div>
+    <div class="custom-control custom-checkbox mb-3">
+        <input type="checkbox" class="custom-control-input" id="customControlValidation3" required>
+        <label class="custom-control-label" for="customControlValidation1">Pintor</label>
+    <div class="invalid-feedback">Exemplo de texto para feedback inválido</div>
+    </div>
+    <div class="custom-control custom-checkbox mb-3">
+        <input type="checkbox" class="custom-control-input" id="customControlValidation4" required>
+        <label class="custom-control-label" for="customControlValidation1">Decoração</label>
+    <div class="invalid-feedback">Exemplo de texto para feedback inválido</div>
+    </div>
+    <div class="custom-control custom-checkbox mb-3">
+        <input type="checkbox" class="custom-control-input" id="customControlValidation5" required>
+        <label class="custom-control-label" for="customControlValidation1">Eletricista</label>
+    <div class="invalid-feedback">Exemplo de texto para feedback inválido</div>
+    </div>
+    <div class="custom-control custom-checkbox mb-3">
+        <input type="checkbox" class="custom-control-input" id="customControlValidation6" required>
+        <label class="custom-control-label" for="customControlValidation1">Professor</label>
+    <div class="invalid-feedback">Exemplo de texto para feedback inválido</div>
+    </div>
+    <div class="custom-control custom-checkbox mb-3">
+        <input type="checkbox" class="custom-control-input" id="customControlValidation7" required>
+        <label class="custom-control-label" for="customControlValidation1">Tecnologia</label>
+    <div class="invalid-feedback">Exemplo de texto para feedback inválido</div>
+    </div>
+
+    <div class="mb-3">
+        <label for="validationTextarea">Descreva sua experiencia profissional</label>
+        <textarea class="form-control is-invalid" id="validationTextarea" required></textarea>
+    </div>
+
+    <div class="col-auto my-1">
+        <button type="submit" class="btn btn-primary">Finalizar</button>
+    </div>
+</form>
+
+</body>
+</html>
